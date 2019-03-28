@@ -1,0 +1,30 @@
+{
+  "name": "Article",
+  "plural": "articles",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "category": {
+      "type": "belongsTo",
+      "model": "Category",
+      "foreignKey": "categoryid"
+    },
+    "coments": {
+      "type": "hasMany",
+      "model": "Coment",
+      "foreignKey": "articleid"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
