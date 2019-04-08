@@ -17,3 +17,10 @@
 coverage
 node_modules
 npm-debug.log
+node_modules
+component-config.json
+config.json
+middleware.development.json
+middleware.json
+.yo-rc.json
+package-lock.json
