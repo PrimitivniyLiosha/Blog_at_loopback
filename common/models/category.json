@@ -17,7 +17,7 @@
     "articles": {
       "type": "hasMany",
       "model": "Article",
-      "foreignKey": "categoryid"
+      "foreignKey": "categoryId"
     }
   },
   "acls": [],

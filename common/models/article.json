@@ -17,12 +17,12 @@
     "category": {
       "type": "belongsTo",
       "model": "Category",
-      "foreignKey": "categoryid"
+      "foreignKey": "categoryId"
     },
-    "coments": {
+    "comments": {
       "type": "hasMany",
-      "model": "Coment",
-      "foreignKey": "articleid"
+      "model": "Comment",
+      "foreignKey": "articleId"
     }
   },
   "acls": [],
